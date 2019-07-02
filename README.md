@@ -16,6 +16,7 @@ Furthermore,
 4.Name the files/ folder structure appropriately
 5.Maximum use of Semantic Elements instead of normal container elements
 6.Used Bootstrap To Make website Responsive. 
+https://manish0070.github.io/Bootstrap_Assignment/
 
 
 
