@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>My Shopping Site</title>
+	<link rel="icon" type="image/ico" href="img/mk.jpeg" style="height:500px; width: 500px;" />
+	<meta name="description"
+		content="This site is for purchasing laptops,dresses,Leather Bags online.Lot Many Brands are Available.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="shopping,Brands,Dresses,Shoes">
+	<meta charset="utf-8">
+	<meta name="author" content="Manish">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Shojumaru&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<header>
+
+		<div class="container" id="main">
+			<!-- Navbar Starts here-->
+			<div class="navbar navbar-fixed-top">
+				<img src="img/mk1.jpeg" alt="My Logo" style="margin-top: 7px;" />
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"
+					type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand "></div>
+				<div class="nav-collapse collapse navbar-responsive-collapse navbar-form pull-right">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<strong
+									class="caret"></strong></a>
+							<!--Dropdown list Under Categories-->
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Mens Wear</a>
+								</li>
+								<li>
+									<a href="#">Womens Wear</a>
+								</li>
+								<li>
+									<a href="#">Kids Wear</a>
+								</li>
+							</ul>
+							<!--Dropdown list ends-->
+					</ul>
+					<!--Search Bar-->
+
+					<form class="navbar-form pull-right">
+						<input type="text" class="form-control" placeholder="Search this site..." id="search">
+						<button type="button" class="btn btn-default"><span
+								class="glyphicon glyphicon-search"></span></button>
+					</form>
+					<!--Search Bar Ends-->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+									class="glyphicon glyphicon-user"></span> My Account<strong
+									class="caret"></span></strong></a>
+							<!--Dropdown list Under My Account-->
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+								</li>
+							</ul>
+							<!-- Dropdown Ends-->
+						</li>
+					</ul>
+				</div>
+				</ul>
+			</div>
+		</div>
+		<!-- Navbar Ends here-->
+	</header>
+
+	<article>
+		<div id="myCarousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<img src="img/3.jpg" alt="Los Angeles" style="width:100%; height:380px;margin-top: 35px;">
+				</div>
+
+				<div class="item" id="slide2">
+					<img src="img/4.jpg" alt="Chicago" style="width:100%;height:380px;margin-top: 35px;">
+				</div>
+
+				<div class="item" id="slide3">
+					<img src="img/1.jpg" alt="New york" style="width:100%;height: 380px;margin-top: 35px;">
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+	</article>
+
+	<section class="shop">
+		<div class="container">
+			<!-- Row and Three coloumns Starts here-->
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Shop By Category</h2>
+					<div class="thumbnail">
+						<a href="img/electronics.jpg" target="_blank">
+							<div class="image1">
+								<img src="img/electronics.jpg" alt="Electronics" style="width:250px;"></div>
+							<div class="caption">
+								<p><b>Electronics And Gadgets.</b></p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<!--coloumns Starts here-->
+				<div class="col-md-4">
+					<h2>Men's Dress Shoes</h2>
+					<div class="thumbnail">
+						<a href="img/shoes.jpg" target="_blank">
+							<div class="image2">
+								<img src="img/shoes.jpg" alt="Shoes" style="width:250px;"></div>
+							<div class="caption">
+								<p><b>Shop Your Favourite Brands</b></p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!--coloumns Ends here-->
+
+				<!--coloumns Starts here-->
+				<div class="col-md-4">
+					<h2>Laptops</h2>
+					<div class="thumbnail">
+						<a href="img/laptop.jpg" target="_blank">
+							<div class="image3">
+								<img src="img/laptop.jpg" alt="Laptop" style="width:100%"></div>
+							<div class="caption">
+								<p><b>Choose The Best</b></p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!--coloumns Ends here-->
+			</div>
+			<!-- Row and Three coloumns Ends here-->
+		</div>
+	</section>
+
+
+
+
+	<!-- Jumbotron Starts Here -->
+
+	<div class="jumbotron jumbotron-fluid text-center">
+		<!-- Container Starts Here -->
+		<div class="container">
+			<h1
+				style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #774488;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+				Laptop Features </h1>
+			<p style="font-family: 'Shojumaru', cursive;color:#774488" ;>Whether you want to surf the net from your
+				sofa, catch up while you commute, or are a gamer on the go there’s a laptop for you.
+
+				Our wide range of computers is carefully chosen to suit all needs, so your ideal laptop is ready and
+				waiting for you. We’ve prepared a guide to key laptop features to help you decide.
+
+				Look out for “Our experts love” laptops. These recommendations highlight the very best laptops in our
+				range. Each showcases a key feature such as touchscreen excellence, portability, and sound quality.
+
+			</p>
+
+
+
+		</div>
+		<!-- Container Ends Here -->
+	</div>
+	<!-- Jumbotron Ends Here -->
+
+	<section id="section">
+		<!-- My Hero Unit Starts -->
+		<h2 style="font-size:30px;font-family:Purisa;text-align: center;text-decoration: underline;color:blueviolet;">
+			Brands We Prefer</h2>
+		<img src="img/levis.png" alt="Not Found" />
+		<img src="img/us.png" alt="Not Found" />
+		<img src="img/nike.jpg" alt="Not Found" />
+		<img src="img/puma.jpg" alt="Not Found" />
+		<img src="img/wrogn.jpg" alt="Not Found" />
+		<img src="img/ajio.jpeg" alt="Not Found" />
+		<!-- My Hero Unit Ends -->
+	</section>
+	<article>
+		<div class="header3">
+			<h3><strong>POPULAR ITEMS :</strong></h3>
+		</div>
+
+		<div class="container-fluid">
+
+			<div class="row ">
+				<div class="col-sm-3" style="margin-right:10px;height: 300px;"><img src="img/shoes.jpg"
+						style="width:300px; height:300px;"></div>
+				<div class="col-sm-4  " style="margin-right:425px; height: 300px;width:100px;"><img
+						src="img/leather.jpg" style="width:300px; height:300px;"></div>
+				<div class="col-sm-3 " style="height: 300px;">
+					<div class="row rowh" style="height: 70px;">
+						<h3 style="font-family:'Times New Roman', Times, serif"> Lot More Products</h3>
+					</div>
+					<div class="row rowh" style="height: 70px;">
+						<h3 style="font-family:'Times New Roman', Times, serif">Good Customer Satisfaction</h3>
+					</div>
+					<div class="row" style="height: 70px;">
+
+						<!-- Button to Open the Modal -->
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+							Our Terms And Conditions
+						</button>
+
+						<!-- The Modal -->
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog modal-sm">
+								<div class="modal-content">
+
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title">Conditions Required</h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+
+									<!-- Modal body -->
+									<div class="modal-body">
+										Terms and Conditions agreements act as a legal contract between you (the
+										company) who has the website or mobile app and the user who access your website
+										and mobile app.
+
+										Having a Terms and Conditions agreement is completely optional. No laws require
+										you to have one. Not even the super-strict and wide-reaching General Data
+										Protection Regulation (GDPR).
+
+										It’s up to you to set the rules and guidelines that the user must agree to. You
+										can think of your Terms and Conditions agreement as the legal agreement where
+										you maintain your rights to exclude users from your app in the event that they
+										abuse your app, where you maintain your legal rights against potential app
+										abusers, and so on.
+
+
+									</div>
+
+									<!-- Modal footer -->
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary"
+											data-dismiss="modal">Close</button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="row">
+				<div class="bs-example">
+					<ul class="nav nav-pills">
+						<li class="nav-item ">
+							<a href="#" class="nav-link active">Home</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="nav-link">Profile</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="nav-link">Messages</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+	</article>
+
+	<!-- Footer Starts -->
+	<footer class="footer">
+		<div class="container">
+			<!-- Row Starts -->
+			<div class="row">
+				<!-- coloumn one Starts -->
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2018 </h6>
+				</div>
+				<!-- coloumn one Ends-->
+
+				<!-- coloumn two Starts -->
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Amazon India empowers small and medium-sized businesses to reach millions of customers with a
+						number of programmes that help boost their revenue, reach and productivity. </p>
+					<!-- coloumn two Ends-->
+				</div>
+
+				<!-- coloumn three Starts -->
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#"> Contact</a></li>
+					</ul>
+				</div>
+				<!-- coloumn three Ends-->
+
+				<!-- coloumn four Starts-->
+				<div class="col-sm-3">
+					<h6>Follow Us</h6>
+					<ul>
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google"></a>
+						<a href="#" class="fa fa-linkedin"></a>
+						<a href="#" class="fa fa-youtube"></a>
+					</ul>
+				</div>
+				<!-- coloumn four Ends-->
+
+				<!-- Map -->
+				<div class="col-sm-2">
+					<div class="container-fluid">
+						<div class="map-responsive">
+							<iframe
+								src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France"
+								width="150" height="150" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+
+				</div>
+				<!-- Map Ended Here -->
+
+			</div>
+			<!-- Row Ends Here -->
+		</div>
+
+
+
+
+	</footer>
+
+
+
+</body>
+
+</html>
